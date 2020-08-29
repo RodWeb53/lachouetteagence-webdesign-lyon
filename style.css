@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(80, 80, 80, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(80, 80, 80, 0.6);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -698,7 +698,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
@@ -722,7 +722,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 10px auto 10px auto;
 }
 
 h2 {
@@ -788,7 +788,18 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #F3976C;
+}
+
+.acces-1 {
+    color: #333!important;
+}
+
+.tangerine-back {
+    background-color: #F3976C;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
 }
 
 .bgc-atomic-tangerine {
@@ -799,9 +810,14 @@ h4 {
     color: #F3976C!important;
 }
 
+.btn-grey {
+    background: #333!important;
+    color: #F3976C!important;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333 !important;
 }
 
 .btn-atomic-tangerine:hover {
